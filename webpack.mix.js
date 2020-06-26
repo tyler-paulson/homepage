@@ -19,7 +19,10 @@ mix.setPublicPath('dist/');
 if (mix.inProduction()) {
     mix.version();
 } else {
-    mix.browserSync('tylerpaulson.test');
+    mix.browserSync({
+        proxy: 'http://tylerpaulson.test',
+        files: ['index.php','src/*.scss']
+    });
 }
 
 // Full API
