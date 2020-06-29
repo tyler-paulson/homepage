@@ -5,6 +5,8 @@ $blue: #0054a5;
 $gray: #8c8e90; $grey: $gray;
 $light_gray: #f6f6f6; $light_grey: $light_gray;
 
+$link_transition: color 200ms;
+
 @mixin reset-list {
 	list-style-type: none;
 	padding-left: 0;
@@ -68,7 +70,7 @@ h1 {
 		padding: 4rem 4rem 4rem 150px;
 	}
 	a {
-		transition: color 200ms;
+		transition: $link_transition;
 	}
 	a:hover {
 		color: black;
@@ -170,4 +172,24 @@ h6 {
 	color: white;
 	background-color: black;
 	padding: .5em 1em;
+}
+
+.projects {
+	margin-top: 4rem;
+}
+
+.projects_list {
+	@include reset-list;
+	margin-top: 4rem;
+	li {
+		margin: 2rem 0;
+		max-width: 300px;
+	}
+	a {
+		color: inherit;
+		transition: $link_transition;
+		&:hover {
+			color: $blue;
+		}
+	}
 }

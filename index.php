@@ -42,7 +42,7 @@
                 <ul class="clients_list">
                     <li>
                         <div class="clients_list--image">
-                            <img src="/images/wb.svg" width="120" height="47">
+                            <img alt="Logo" src="/images/wb.svg" width="120" height="47">
                         </div>
                         <h5>Whiteboard</h5>
                         <div class="clients_list--location">Chattanooga, TN</div>
@@ -51,7 +51,7 @@
                     </li>
                     <li>
                         <div class="clients_list--image">
-                            <img src="/images/ga.svg" width="92" height="92">
+                            <img alt="Logo" src="/images/ga.svg" width="92" height="92">
                         </div>
                         <h5>Grid &amp; Arrow</h5>
                         <div class="clients_list--location">Lewisburg, PA</div>
@@ -60,7 +60,7 @@
                     </li>
                     <li>
                         <div class="clients_list--image">
-                            <img src="/images/br@2x.png" width="96" height="96">
+                            <img alt="Logo" src="/images/br@2x.png" width="96" height="96">
                         </div>
                         <h5>Book Riot</h5>
                         <div class="clients_list--location">Brookyln, NY</div>
@@ -69,7 +69,7 @@
                     </li>
                     <li>
                         <div class="clients_list--image">
-                            <img src="/images/mogiv.svg" width="99" height="70">
+                            <img alt="Logo" src="/images/mogiv.svg" width="99" height="70">
                         </div>
                         <h5>Mogiv</h5>
                         <div class="clients_list--location">San Diego, CA</div>
@@ -78,7 +78,7 @@
                     </li>
                     <li>
                         <div class="clients_list--image">
-                            <img src="/images/iearn.svg" width="84" height="84">
+                            <img alt="Logo" src="/images/iearn.svg" alt="" width="84" height="84">
                         </div>
                         <h5>iEARN</h5>
                         <div class="clients_list--location">New York, NY</div>
@@ -88,7 +88,46 @@
                 </ul>
             </div>
         </div>
-
+        
+        <div class="wrap">
+            <div class="projects">
+                <h2>Select Projects</h2>
+                <ul class="projects_list">
+                    <li>
+                        <h5>WinShape On (Active)</h5>
+                        <p>On contract with <a href="https://whiteboard.is" target="_blank">Whiteboard</a>, our team brought Winshape Camps summer experience online for a COVID-19 world using WooCommerce to feed data to multiple Vue.JS single-page apps.</p>
+                    </li>
+                    <li>
+                        <h5>Precept Classes (Active)</h5>
+                        <p>On contract with <a href="https://whiteboard.is" target="_blank">Whiteboard</a>, our team launched a portal for Bible Study leaders to post their groups and collect RSVPs on top of Precept’s Salesforce-powered API using a custom WordPress plugin.</p>
+                    </li>
+                    <li>
+                        <h5>Tailored Book Recs (Active)</h5>
+                        <p>I worked closely with the Director of Technology at <a href="https://riotnewmedia.com" target="_blank">Riot New Media</a> to develop a heavy customization of WooCommerce’s subscription plugin with a Vue onboarding for their personalized book recommendation service.</p>
+                    </li>
+                    <li>
+                        <h5>Boil Line Coffee (Active)</h5>
+                        <p><a href="https://gridandarrow.com" target="_blank">Grid & Arrow</a> launched a WooCommerce store / subscription service for our favorite <a href="https://boillinecoffee.com" target="_blank">small town PA coffee roaster</a>. When COVID-19 shut the shop down, we pivoted it to facilitate local delivery.</p>
+                    </li>
+                    <li>
+                        <h5>NJ Masters (2018)</h5>
+                        <p>On contract with <a href="https://jonathanfarrell.info" target="_blank">Jonathan Farrell</a>, I developed a relational database in WordPress using Advanced Custom Fields to store and retrieve this running club’s decades long archive of race results.</p>
+                    </li>
+                    <li>
+                        <h5>Mogiv Dashboard (2015-2016)</h5>
+                        <p>I designed and led the front-end development of Mogiv’s overhaul of its dashboards for both givers and the staff of its not-for-profit customers until its acquisition.</p>
+                    </li>
+                    <li>
+                        <h5>Collaboration Centre (2014–2015)</h5>
+                        <p>As an employee at <a href="https://us.iearn.org" target="_blank">iEARN</a>, I supported users, worked with contract development teams, and helped drive the feature roadmap for the online platform students across the globe use to collaborate.</p>
+                    </li>
+                    <li>
+                        <h5>Miles A Minute (2013)</h5>
+                        <p>On contract with <a href="http://threedev.com" target="_blank">ThreeDev</a>, I designed the app and website for the <a href="http://milesaminute.com" target="_blank">daily video devotional series</a> of author and pastor Miles McPherson.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
         <script src="<?= manifest_resource('/manifest.js') ?>"></script>
         <script src="<?= manifest_resource('/vendor.js') ?>"></script>
