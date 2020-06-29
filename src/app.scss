@@ -53,28 +53,6 @@ header {
 	}
 }
 
-.logo {
-	position: relative;
-	top: .75rem;
-	font-weight: bold;
-	font-size: 1.6875rem;
-	padding: 2.5rem 0;
-	line-height: 1.5;
-	@media(min-width:768px) {
-		padding: 5rem 0;
-	}
-}
-
-.brain {
-	z-index: 1;
-	background-image: url('/images/brain@2x.png');
-	width: 675px;
-	height: 785px;
-	background-size: 100%;
-	position: absolute;
-	right: 75px;
-}
-
 h1 {
 	position: relative;
 	z-index: 10;
@@ -97,6 +75,30 @@ h1 {
 	}
 }
 
+h2 {
+	margin: 0;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 2.75rem;
+	@media(min-width:768px) {
+		font-size: 3rem;
+	}
+	&::after {
+		content: " - - -"
+	}
+}
+
+h5 {
+	font-size: 1rem;
+	margin: .5rem 0;
+}
+
+h6 {
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: normal;
+}
+
 .wp {
 	color: #0073aa;
 }
@@ -109,17 +111,26 @@ h1 {
 	color: #4fc08d;
 }
 
-h2 {
-	margin: 0;
-	font-weight: normal;
-	font-style: italic;
-	font-size: 2.75rem;
+.logo {
+	position: relative;
+	top: .75rem;
+	font-weight: bold;
+	font-size: 1.6875rem;
+	padding: 2.5rem 0;
+	line-height: 1.5;
 	@media(min-width:768px) {
-		font-size: 3rem;
+		padding: 5rem 0;
 	}
-	&::after {
-		content: " - - -"
-	}
+}
+
+.brain {
+	z-index: 1;
+	background-image: url('/images/brain@2x.png');
+	width: 675px;
+	height: 785px;
+	background-size: 100%;
+	position: absolute;
+	right: 75px;
 }
 
 .clients {
@@ -139,6 +150,9 @@ h2 {
 		text-align: center;
 		margin-bottom: 2rem;
 	}
+	h5, h6 {
+		margin: .5rem 0;
+	}
 }
 
 .clients_list--image {
@@ -148,18 +162,6 @@ h2 {
 		height: 100px;
 	}
 	margin-bottom: 2.5rem;
-}
-
-h5 {
-	font-size: 1rem;
-	margin: .5rem 0;
-}
-
-h6 {
-	margin: .5rem 0;
-	font-size: 1rem;
-	font-style: italic;
-	font-weight: normal;
 }
 
 .clients_list--role {
