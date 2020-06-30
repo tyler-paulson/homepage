@@ -86,7 +86,8 @@ h2 {
 		font-size: 3rem;
 	}
 	&::after {
-		content: " - - -"
+		content: " - - -";
+		white-space: nowrap;
 	}
 }
 
@@ -190,6 +191,56 @@ h6 {
 		transition: $link_transition;
 		&:hover {
 			color: $blue;
+		}
+	}
+	@media(min-width:768px) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		li {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+	}
+	@media(min-width: 968px) {
+		li {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		li:nth-child(even) {
+			padding-top: 50px;
+		}
+	}
+	@media(min-width: 1200px) {
+		li {
+			padding-left: 112.5px;
+			padding-right: 112.5px;
+			position: relative;
+		}
+		li:nth-child(odd), li:nth-child(even) {
+			&::before {
+				position: absolute;
+				display: block;
+				background: black;
+				height: 2px;
+				width: 50px;
+				content: "";
+			}
+		}
+		li:nth-child(odd) {
+			border-right: 2px solid black;
+			&::before {
+				right: 0;
+				top: 50px;
+			}
+		}
+		li:nth-child(even) {
+			&::before {
+				left: 0;
+				top: 100px;
+			}
 		}
 	}
 }
