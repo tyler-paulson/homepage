@@ -78,7 +78,7 @@
                     </li>
                     <li>
                         <div class="clients_list--image">
-                            <img alt="Logo" src="/images/iearn.svg" alt="" width="84" height="84">
+                            <img alt="Logo" src="/images/iearn.svg" width="84" height="84">
                         </div>
                         <h5>iEARN</h5>
                         <div class="clients_list--location">New York, NY</div>
@@ -128,6 +128,85 @@
                 </ul>
             </div>
         </div>
+
+        <div class="wrap">
+            <div class="techs">
+                <h2>Technology Stack</h2>
+                <div class="techs--cols">
+                    <div>
+                        <h4>Core</h4>
+                        <ul>
+                            <li>Ubuntu</li>
+                            <li>Apache</li>
+                            <li>MySQL</li>
+                            <li>PHP</li>
+                            <li>WordPress / WooCommerce</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Libaries</h4>
+                        <ul>
+                            <li>Sass + Tailwind</li>
+                            <li>jQuery / jQuery UI</li>
+                            <li>Vue / Vuex / Vue Router</li>
+                            <li>Bedrock + Lumberjack</li>
+                            <li>Advanced Custom Fields</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>APIs</h4>
+                        <ul>
+                            <li>Stripe</li>
+                            <li>MailChimp</li>
+                            <li>Postmark</li>
+                            <li>Airtable</li>
+                            <li>Google Maps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="more">
+                <h2>More </h2>
+                <div class="more--cols">
+                    <div>
+                        <h3>How I Work</h3>
+                        <h4>With Experience</h4>
+                        <p>I balance pairing the built-in power of WordPress with the right custom development to create a user experience that is true to your brand and makes the tasks you want accomplishable easy for admins and users alike.</p>
+                        <h4>Sustainably</h4>
+                        <p>I won’t be the contractor that adds needless technical debt to your organization. I’ve stood in your shoes. </p>
+                        <h4>Iteratively</h4>
+                        <p>I believe that launching small and releasing improvements regularly is the best way to build a website that is utilized and beloved by many.</p>
+                        <h4>At Scale</h4>
+                        <p>I’ve written code that has processed millions of dollars in donations and sales. People rely on me.</p>
+                        <h4>Multidisciplinaried</h4>
+                        <p>I don’t just write code, I was trained in the fundamentals of graphic design at <a href="http://www.artcenter.edu" target="_blank">ArtCenter</a> in Pasadena, California and it informs my work every day.</p>
+                    </div>
+                    <div>
+                        <h3>Contact</h3>
+                        <h4>Email</h4>
+                        <div class="large">hello@tylerpaulson.com</div>
+                        <h4>Phone</h4>
+                        <div class="large">+1 (570) 478-5712</div>
+                        <h4>Newsletter</h4>
+                        <div class="large">Subscribe</div>
+                        <h4>Workspace</h4>
+                        <div class="large"><a href="https://atriumfw.com/" target="_blank">Atrium Cowork</a><br />
+                        Downtown Fort Wayne<br />
+                        Indiana, USA</div>
+                        <h4>Legal</h4>
+                        <div>Copyright <?= date('Y') ?><br/>
+                        Tyler Paulson Design & Development, Inc<br/>
+                        Pennsylvania, USA<br/><br/>
+                        Website hosted by <a href="https://gridandarrow.com" target="_blank">Grid & Arrow, LLC</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer></footer>
 
         <script src="<?= manifest_resource('/manifest.js') ?>"></script>
         <script src="<?= manifest_resource('/vendor.js') ?>"></script>

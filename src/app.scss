@@ -55,6 +55,10 @@ header {
 	}
 }
 
+footer {
+	margin-top: 4rem;
+}
+
 h1 {
 	position: relative;
 	z-index: 10;
@@ -89,6 +93,20 @@ h2 {
 		content: " - - -";
 		white-space: nowrap;
 	}
+}
+
+h3 {
+	font-size: 1.6875rem;
+	font-weight: normal;
+	font-style: italic;
+	&::after {
+		content: " -";
+		white-space: nowrap;
+	}
+}
+
+h4 {
+	font-size: 1.5rem;	
 }
 
 h5 {
@@ -241,6 +259,61 @@ h6 {
 				left: 0;
 				top: 100px;
 			}
+		}
+	}
+}
+
+.techs {
+	margin-top: 4rem;
+}
+
+.techs--cols {
+	margin-top: 4rem;
+	ul {
+		@include reset-list;
+	}
+	@media(min-width:768px) {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		> div {
+			padding-left: 75px;
+			padding-right: 75px;
+		}
+	}
+	@media(min-width:960px) {
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+}
+
+.more {
+	margin-top: 4rem;
+	a {
+		color: inherit;
+		transition: $link_transition;
+		&:hover {
+			color: $blue;
+		}
+	}
+}
+
+.more--cols {
+	margin-top: 4rem;
+	@media(min-width:768px) {
+		display: flex;
+		> div {
+			width: calc(50% - 150px);
+			padding-left: 75px;
+			padding-right: 75px;
+		}
+	}
+	@media(min-width: 1200px) {
+		> div {
+			width: calc(50% - 150px);
+			padding-left: 0;
+			padding-right: 0;
+			margin-left: 150px;
 		}
 	}
 }
