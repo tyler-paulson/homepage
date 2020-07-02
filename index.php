@@ -6,7 +6,7 @@
 
         <meta charset="utf-8">
 
-        <title>Tyler Paulson Web Development</title>
+        <title>Tyler Paulson - Web Developer</title>
 
         <meta name="description" content="Specializing in leveraging WordPress, WooCommerce and Vue.js for small businesses and not-for-profits.">
 
@@ -23,7 +23,7 @@
 
         <header>
             <div class="wrap">
-                <div class="logo"><span class="blue">tyler_paulson</span><span class="mobile"><br></span><span class="gray">(</span>web<span class="gray">)</span><span class="gray">:development</span></div>
+                <div class="logo"><span class="blue">tyler_paulson</span><span class="mobile"><br></span><span class="gray">(</span>web<span class="gray">)</span><span class="gray">:developer</span></div>
             </div>
             <div class="desktop brain"></div>
             <h1>
@@ -169,7 +169,7 @@
 
         <div class="wrap">
             <div class="more">
-                <h2>More </h2>
+                <h2>More</h2>
                 <div class="more--cols">
                     <div>
                         <h3>How I Work</h3>
@@ -187,20 +187,20 @@
                     <div>
                         <h3>Contact</h3>
                         <h4>Email</h4>
-                        <div class="large">hello@tylerpaulson.com</div>
+                        <p class="large"><a href="mailto:hello@tylerpaulson.com">hello@tylerpaulson.com</a></p>
                         <h4>Phone</h4>
-                        <div class="large">+1 (570) 478-5712</div>
+                        <p class="large"><a href="tel:+15704785712">+1 (570) 478-5712</a></p>
                         <h4>Newsletter</h4>
-                        <div class="large">Subscribe</div>
+                        <p class="large"><a href="https://tylerpaulson.us15.list-manage.com/subscribe?u=9a59c60cdce6f7548aeafd8c7&id=a73fb2ba2a">Subscribe</a></p>
                         <h4>Workspace</h4>
-                        <div class="large"><a href="https://atriumfw.com/" target="_blank">Atrium Cowork</a><br />
+                        <p class="large"><a href="https://atriumfw.com/" target="_blank">Atrium Cowork</a><br />
                         Downtown Fort Wayne<br />
-                        Indiana, USA</div>
+                        Indiana, USA</p>
                         <h4>Legal</h4>
-                        <div>Copyright <?= date('Y') ?><br/>
+                        <p class="legal">Copyright <?= date('Y') ?><br/>
                         Tyler Paulson Design & Development, Inc<br/>
                         Pennsylvania, USA<br/><br/>
-                        Website hosted by <a href="https://gridandarrow.com" target="_blank">Grid & Arrow, LLC</a></div>
+                        Website hosted by <a href="https://gridandarrow.com" target="_blank" class="nowrap">Grid & Arrow, LLC</a></p>
                     </div>
                 </div>
             </div>
@@ -208,9 +208,9 @@
 
         <footer></footer>
 
-        <script src="<?= manifest_resource('/manifest.js') ?>"></script>
+        <!--<script src="<?= manifest_resource('/manifest.js') ?>"></script>
         <script src="<?= manifest_resource('/vendor.js') ?>"></script>
-        <script src="<?= manifest_resource('/app.js') ?>"></script>
+        <script src="<?= manifest_resource('/app.js') ?>"></script>-->
 
     </body>
 
