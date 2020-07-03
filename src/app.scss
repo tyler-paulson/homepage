@@ -154,12 +154,17 @@ h6 {
 
 .brain {
 	z-index: 1;
-	background-image: url('/images/brain@2x.png');
 	width: 675px;
 	height: 785px;
 	background-size: 100%;
 	position: absolute;
 	right: 75px;
+	.webp-alpha & {
+		background-image: url('/images/brain.webp');
+	}
+	.no-js &, .no-webp-alpha & {
+		background-image: url('/images/brain.png');
+	}
 }
 
 .clients {
