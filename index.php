@@ -15,8 +15,11 @@
         <!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
         <!--[if !IE]><!--><link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico"><!-- <![endif]-->
 
-        <meta property="og:image" content="/images/og.png">
-        <meta name="twitter:image" content="/images/card.png">
+        <meta property="og:url" content="https://<?=$_SERVER[HTTP_HOST]?>">
+        <meta property="og:image" content="https://<?=$_SERVER[HTTP_HOST]?>/images/og.png">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="https://<?=$_SERVER[HTTP_HOST]?>/images/card.png">
 
         <style><?= inline_resource('/app.css'); ?></style>
         
