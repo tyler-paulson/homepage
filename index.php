@@ -15,6 +15,9 @@
         <!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
         <!--[if !IE]><!--><link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico"><!-- <![endif]-->
 
+        <meta property="og:image" content="/images/og.png">
+        <meta name="twitter:image" content="/images/card.png">
+
         <style><?= inline_resource('/app.css'); ?></style>
         
     </head>
@@ -60,7 +63,7 @@
                     </li>
                     <li>
                         <div class="clients_list--image">
-                            <img alt="Logo" src="/images/br@2x.png" width="96" height="96">
+                            <img alt="Logo" src="/images/br@2x.png" width="97" height="97">
                         </div>
                         <h5>Book Riot</h5>
                         <div class="clients_list--location">Brookyln, NY</div>
