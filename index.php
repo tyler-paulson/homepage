@@ -6,7 +6,7 @@ $description = 'Specializing in leveraging WordPress, WooCommerce and Vue.js for
 
 ?><!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" class="no-js">
 
     <head>
 
