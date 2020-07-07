@@ -25,12 +25,7 @@ $description = 'Specializing in leveraging WordPress, WooCommerce and Vue.js for
         <meta property="og:url" content="https://<?=$_SERVER[HTTP_HOST]?>">
         <meta property="og:title" content="<?= $title ?>">
         <meta property="og:description" content="<?= $description ?>">
-        <meta property="og:image" content="https://<?=$_SERVER[HTTP_HOST]?>/images/og-li.png">
-        <meta property="og:image:width" content="1104">
-        <meta property="og:image:height" content="736">
         <meta property="og:image" content="https://<?=$_SERVER[HTTP_HOST]?>/images/og.png">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
 
         <meta name="twitter:card" content="summary">
         <meta name="twitter:url" content="https://<?=$_SERVER[HTTP_HOST]?>">
