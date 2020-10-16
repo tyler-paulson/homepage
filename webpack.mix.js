@@ -11,9 +11,9 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('src/app.js', 'dist/');
+//mix.js('src/app.js', 'dist/');
 mix.sass('src/app.scss', 'dist/', { sassOptions: { outputStyle: mix.inProduction() ? 'compressed' : 'expanded' } });
-mix.extract();
+//mix.extract();
 mix.setPublicPath('dist/');
 
 if (mix.inProduction()) {
