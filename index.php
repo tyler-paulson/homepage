@@ -82,7 +82,7 @@
                         </div>
                         <h5>iEARN</h5>
                         <div class="clients_list--location">New York, NY</div>
-                        <h6>2015–2017</h6>
+                        <h6>2014–2015</h6>
                         <div class="clients_list--role" style="background-color:#79abd3;">Employee</div>
                     </li>
                 </ul>
