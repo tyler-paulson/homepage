@@ -8,6 +8,7 @@ function css() {
 };
 
 exports.watch = function() {
+  css();
   watch('src/*.scss', css);
 };
 
