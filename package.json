@@ -5,8 +5,8 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^5.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.77.2"
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.104.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
